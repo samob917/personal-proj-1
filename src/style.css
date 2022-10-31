@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #23252c;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  background: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  margin-top: 50px;
+}
+.info {
+  margin-top: 44px;
+}
+.info > img {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: -50px;
+}
+
+.info h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+
+.info h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+.info > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  text-align: center;
+  color: #f5f5f5;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.info--buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.linkedin--button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  background: #5093e2;
+  /* shadow/sm */
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  margin-right: 35px;
+}
+
+.linkedin--button p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  color: #ffffff;
+}
+
+.email--button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
