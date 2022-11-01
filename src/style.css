@@ -127,7 +127,7 @@ body {
   color: #f5f5f5;
 }
 .about {
-  margin-top: 33px;
+  margin-top: 25px;
   margin-left: 36px;
   margin-right: 36px;
   margin-bottom: 0;
@@ -166,4 +166,24 @@ body {
   /* or 15px */
   margin-top: 0;
   color: #dcdcdc;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height: 64;
+  width: 317px;
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-bottom: -5px;
+  margin-top: 24px;
+}
+
+.footer img {
+  height: 25px;
+  width: 25px;
+  background: #161619;
 }
